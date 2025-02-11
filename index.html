@@ -20,9 +20,9 @@
         <div class="row">
             <nav>
                 <ul class="nav-items">
-                    <li><a href="#projets">Projets</a></li>
-                    <li><a href="#about">A propos de moi</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projets">Projets</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">A propos de moi</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </div>
@@ -30,8 +30,8 @@
         <div>
             <div class="header-text">
                 <h1><span>Milena Arce</span></h1>
-                <p>Mira que puedes decir sobre ti que WOW</p>
-                <a href="#contact">Get in touch</a>
+                <p>Développeuse Web passionnée, créant des expériences numériques.</p>
+                <a href="#contact" class="btn btn-colored">Get in touch</a>
             </div>
         </div>
 
@@ -47,18 +47,18 @@
                         <div class="projet-text">
                             <h3>Full Stack E-commerce Website</h3>
                             <p>Descripcion del proyecto</p>
-                            <ul>
+                            <ul class="projet-list">
                                 <li>MongoDB</li>
                                 <li>Express</li>
                                 <li>React</li>
                                 <li>Node.js</li>
                             </ul>
                             <div class="projet-links">
-                                <a href="#">See code</a>
-                                <a href="#">Visit Site</a>
+                                <a href="#" class="link">See code <span>&rarr;</span></a>
+                                <a href="#" class="link">Visit Site <span>&rarr;</span></a>
                             </div>
                         </div>
-                        <div class="projet-image">
+                        <div class="projet-image-container">
                             <img src="" alt="">
                         </div>
                     </div>
@@ -67,17 +67,17 @@
                         <div class="projet-text">
                             <h3>Application Web interactive (quiz ludique)</h3>
                             <p>Descripcion del proyecto</p>
-                            <ul>
+                            <ul class="projet-list">
                                 <li>HTML</li>
                                 <li>CSS</li>
                                 <li>JavaScript</li>
                             </ul>
                             <div class="projet-links">
-                                <a href="https://github.com/milenaarce/Ada-Lovelace.git">See code</a>
-                                <a href="https://milenaarce.github.io/Ada-Lovelace/">Visit Site</a>
+                                <a href="https://github.com/milenaarce/Ada-Lovelace.git" class="link">See code <span>&rarr;</span></a>
+                                <a href="https://milenaarce.github.io/Ada-Lovelace/" class="link">Visit Site <span>&rarr;</span></a>
                             </div>
                         </div>
-                        <div class="projet-image">
+                        <div class="projet-image-container">
                             <img src="" alt="">
                         </div>
                     </div>
@@ -86,41 +86,22 @@
                         <div class="projet-text">
                             <h3>Application météo</h3>
                             <p>Développement d’une application météo utilisant HTML, CSS, JavaScript et l’API OpenWeather pour afficher les prévisions en temps réel.</p>
-                            <ul>
+                            <ul class="projet-list">
                                 <li>HTML</li>
                                 <li>CSS</li>
                                 <li>JavaScript</li>
                                 <li>API externe (OpenWeather)</li>
                             </ul>
                             <div class="projet-links">
-                                <a href="#">See code</a>
-                                <a href="#">Visit Site</a>
+                                <a href="#" class="link">See code <span>&rarr;</span></a>
+                                <a href="#" class="link">Visit Site <span>&rarr;</span></a>
                             </div>
                         </div>
-                        <div class="projet-image">
+                        <div class="projet-image-container">
                             <img src="" alt="">
                         </div>
                     </div>
 
-                    <!-- <div class="projet-container">
-                        <div class="projet-text">
-                            <h3>Titulo del proyecto</h3>
-                            <p>Descripción del proyecto</p>
-                            <ul>
-                                <li>Cosas usadas</li>
-                                <li>Cosas usadas</li>
-                                <li>Cosas usadas</li>
-                                <li>Cosas usadas</li>
-                            </ul>
-                            <div class="projet-links">
-                                <a href="#">See code</a>
-                                <a href="#">Visit Site</a>
-                            </div>
-                        </div>
-                        <div class="projet-image">
-                            <img src="" alt="">
-                        </div>
-                    </div> -->
 
                 </div>
             </div>
@@ -131,19 +112,15 @@
         <section id="about">
             <div class="row">
                 <h2>About me</h2>
-                <div>
-                    <div>
+                <div class="about-content">
+                    <div class="about-text">
                         <p>
-                            UN TEXTO QUE HABLE DE MIIIIIIIIII <br> 
-                            UN TEXTO QUE HABLE DE MIIIIIIIIII <br> 
-                            UN TEXTO QUE HABLE DE MIIIIIIIIII <br> 
-                            UN TEXTO QUE HABLE DE MIIIIIIIIII <br> 
-                            UN TEXTO QUE HABLE DE MIIIIIIIIII <br> 
-                            UN TEXTO QUE HABLE DE MIIIIIIIIII <br> 
+                            Passionnée par l’informatique, je suis une développeuse en pleine évolution, toujours curieuse d’apprendre et de relever de nouveaux défis. Autonome et adaptable, je m’intègre facilement dans différents environnements de travail. Grâce à ma rigueur et ma capacité d’analyse, je trouve des solutions efficaces aux problèmes complexes. J’ai une expérience pratique en développement web ainsi qu’en analyse de données, acquise au cours de mes études et projets. La cybersécurité m’intéresse particulièrement, et j’explore régulièrement ce domaine pour approfondir mes compétences.
                         </p>
+                        <a href="#" class="btn">My Resume</a>
                     </div>
 
-                    <div> <!-- photo de mi -->
+                    <div class="about-photo-container"> <!-- photo de mi -->
                         <img src="" alt="">
                     </div>
                 </div>
@@ -156,7 +133,7 @@
             <section id="contact">
                 <div class="row">
                     <h2>Me contacter</h2>
-                    <div>
+                    <div class="contact-info">
                         <p>
                             Vous cherchez un site web performant et convivial pour représenter votre produit ou votre entreprise ?
                             Vous avez besoin d'une consultation ? Vous avez des questions, des conseils à me donner ou vous voulez
@@ -165,28 +142,28 @@
                         <a href="mailto:milenaarce769@gmail.com" class="btn">milenaarce769@gmail.com</a>
                     </div>
 
-                    <ul>
-                        <li>
+                    <ul class="footer-social-links">
+                        <li class="footer-social-link-item">
                             <a href="www.linkedin.com/in/milena-arce-24405b277" title="Lien vers mon profil LinkedIn">
                                 <i class="fa-brands fa-linkedin"></i>
                             </a>
                         </li>
-                        <li>
+                        <li class="footer-social-link-item">
                             <a href="https://github.com/milenaarce" title="Lien vers mon profil GitHub">
                                 <i class="fa-brands fa-github"></i>
                             </a>
                         </li>
-                        <li>
+                        <li class="footer-social-link-item">
                             <a href="mailto:milenaarce769@gmail.com" title="M'envoyer un e-mail">
                                 <i class="fa-solid fa-envelope"></i>
                             </a>
                         </li>
-                        <li>
+                        <li class="footer-social-link-item">
                             <a href="https://www.instagram.com/milenaarce_/profilecard/?igsh=MWRpejBqbWNwYWg3ag==" title="Lien vers mon profil Instagram">
                                 <i class="fa-brands fa-square-instagram"></i>
                             </a>
                         </li>
-                        <li>
+                        <li class="footer-social-link-item">
                             <a href="https://wa.me/33668716482" title="M'envoyer un message sur WhatsApp">
                                 <i class="fa-brands fa-square-whatsapp"></i>
                             </a>
