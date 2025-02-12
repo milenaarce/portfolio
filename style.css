@@ -376,7 +376,7 @@ nav {
 
 /* Header */
 header {
-    background: linear-gradient(rgba(0,0,0, .1), rgba(0,0,0, .4)), 
+    background:  linear-gradient(rgba(0,0,0, .1), rgba(0,0,0, .4)),
         url('./imagenes/fondo1.jpg');
     height: 100vh;
     background-size: cover;
@@ -384,6 +384,7 @@ header {
     background-attachment: fixed;
     font-size: var(--font-size-normal);
 }
+
 
 .header-text {
     position: absolute;
