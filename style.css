@@ -32,11 +32,9 @@
     --line-height-normal: 1.7;
     --line-height-small: 1.2;
 
-    --black: #000;
-    --pink: #ff3258;
-    --white: #f0e9f2;
-    --white-1: #e5e5e6da;
-
+    --gris: #E7EAEF;    ;
+    --pink: #065653;
+    --black: black;
 
     --container-max-width: 1180px;
     --container-normal-width: 800px;
@@ -68,9 +66,9 @@ body {
     font-size: var(--font-size-small);
     font-family: var(--font-stack);
     font-weight: 400;
-    color: var(--white-1);
+    color: var(--black);
     line-height: var(--line-height-normal);
-    background: var(--black);
+    background: var(--gris);
     overflow-x: hidden;
 }
 
@@ -104,7 +102,7 @@ body {
 }
 
 section {
-    padding: var(--gutter-huge) 0;
+    padding: var(--gutter-medium) 0;
     border-bottom: var(--border-light);
 }
 
@@ -120,13 +118,14 @@ h3 {
     font-family: 'Jost', sans-serif;
     font-weight: 400;
     line-height: var(--line-height-small);
-    color: var(--white);
+    color: var(--black);
 }
 
 .header-text h1 {
     line-height: 1;
     font-size: var(--font-size-huge);
     font-weight: 400;
+    color:white;
 }
 
 @media(max-width: 900px) {
@@ -180,7 +179,7 @@ p {
 
 /* Boutons et liens */
 a {
-    color: var(--white);
+    color: var(--black);
     font-weight: 400;
     font-family: 'Jost', sans-serif;
     transition: all .2s;
@@ -204,7 +203,7 @@ a:focus {
     color: inherit;
     border: 1px solid  var(--pink);
     font-weight: 400;
-}
+} 
 
 .btn::after {
     content: '';
@@ -213,7 +212,7 @@ a:focus {
     top: 0;
     left: 0;
     right: 100%;
-    background: var(--white);
+    background: var(--black);
     height: 100%;
     z-index: -1;
     transition: all 0.2s cubic-bezier(1, 0.68, 0.16, 0.9);
@@ -255,7 +254,7 @@ a:focus {
     top: 0;
     left: 0;
     right: 100%;
-    background: var(--white);
+    background: var(--black);
     height: 100%;
     z-index: -1;
     transition: all 0.2s cubic-bezier(1, 0.68, 0.16, 0.9);
@@ -360,7 +359,7 @@ nav {
     right: 100%;
     display: inline-block;
     height: 1rem;
-    background: var(--white);
+    background: var(--black);
     transition: all 0.25s cubic-bezier(1, 0.68, 0.16, 0.9);
 }
 
@@ -383,6 +382,7 @@ header {
     background-position: center;
     background-attachment: fixed;
     font-size: var(--font-size-normal);
+    color: white;
 }
 
 
@@ -478,6 +478,10 @@ header {
     margin-bottom: var(--gutter-normal);
 }
 
+.about-photo-container img {
+    height: 550px;
+}
+
 @media(min-width: 901px) {
     .about-text {
         flex: 0 0 35%;
@@ -506,6 +510,10 @@ footer {
     justify-content: center;
     padding: var(--gutter-normal) 0;
     list-style: none;
+}
+
+.footer-social-link-item i {
+    font-size: 3rem;
 }
 
 .footer-social-link-item:not(:last-of-type) {
